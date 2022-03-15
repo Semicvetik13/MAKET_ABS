@@ -1,0 +1,66 @@
+@media screen and (max-width: 44em){
+   .Photo
+   {
+left: 0!important;
+   }
+}
+
+.Main{
+   position: absolute;
+   right: 0;
+   left: 0;
+}
+.Photo {
+   position: relative; 
+   left: 33%;
+   width: 400px;
+   height: 400px;
+}
+.Smoking{
+   position: absolute;
+   left: 70px;
+   top: 60px;
+   z-index: 1;
+}
+.Bio{
+   position: absolute;
+   left: 0;
+   top: 20px;
+   z-index: 1;
+}
+.Bio:hover{
+   z-index: 20;
+}
+.Bio:hover .Smoking {
+   z-index: -10;
+}
+.Man {
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: 1;
+   }
+.Man:hover{
+   z-index: 20;
+}
+.Man:hover .Smoking {
+   z-index: -10;
+}
+.Yin {
+   position: absolute;
+   bottom: 0;
+   left:100px;
+   z-index: 1;
+}
+.Yin:hover{
+   z-index: 20;
+}
+.Yin:hover .Smoking {
+   z-index: -10;
+}
+.text{
+   position: relative;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
